@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_styles.css">
+    <title>js | Home</title>
+    <link rel="icon" href="Images/logo.png">
+</head>
+<body data-title="index">
+    <header>
+        <div class="header-container">
+            <div class="row">
+                
+                <div class="brand-name">
+                    <a href="#"><img src="Images/logo.png" alt="logo"></a>
+                </div>
+
+                <div class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="image.html">Image</a></li>
+                        <li><a href="age.html" class="active">Age</a></li>
+                        <li><a href="colorPicker.html">Color Picker</a></li>
+                        <li><a href="psychoanalysis.html">Psychoanalysis</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="home">
+            <h1>Age Calculator</h1>
+           <div class="content-box input-box">
+                
+
+                <div class="input-group">
+                    <label>Name</label>
+                    <input type="text" id="name-input"placeholder="Name">
+                </div>
+
+                <div class="input-group">
+                   <label>Birth Year</label>
+                    <input type="text" id="year-input"placeholder="Year">
+                </div>
+
+                <input type="button" id="button" value="Calculate Age" onclick = "calculateAge()">
+
+                <div class="age-group">
+                    <h1>Your Age</h1>
+                    <span id="user-age">Age</span>
+                </div>
+
+           </div>
+          
+        </div>
+    </section>
+</body><script src="index_script.js"></script>
+</html>
