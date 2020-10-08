@@ -7,7 +7,8 @@ function loadPage2(){
     document.getElementById("text-1").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus modi odio dignissimos. Voluptatum quos reprehenderit dolore aspernatur illum?";
     document.getElementById("text-2").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quas laborum atque voluptates veniam magni. Doloremque corrupti animi recusandae debitis, laborum voluptas fugit vero.";
     document.getElementById("text-3").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id assumenda illo, nisi voluptas laboriosam consectetur voluptatem!";
-    document.getElementById("image").src = "Images/logo.png";
+    document.getElementById("image-1").src = "Images/logo.png";
+    document.getElementById('image-2').src = "Images/2.jpg"
 }
 
 

@@ -129,11 +129,17 @@ header .navbar ul li a::before{
 
 
 /* Image */
-.home #image{
+.home #image-1{
     height: 250px;
     width: auto;
 }
 
+#image-2{
+    height: 250px;
+    width: auto;
+    border: 5px solid white;
+    
+}
 .home p{
     color:white;
     font-size: 1.5em;
