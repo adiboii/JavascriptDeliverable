@@ -18,8 +18,7 @@ function loadPage2(){
     home.appendChild(p1);
     image2.setAttribute("id", "image-2");
     image2.src = "Images/2.jpg";
-    home.appendChild(image2);
-
+    p1.appendChild(image2);
     p2.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, modi porro ut unde amet quaerat autem ipsa vel beatae et nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, modi porro ut unde amet quaerat autem ipsa vel beatae et nesciunt."
     home.appendChild(p2);
 }
