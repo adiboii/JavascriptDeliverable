@@ -3,12 +3,25 @@ function welcomeText(){
 }
 
 function loadPage2(){
-    document.getElementById("js-text").innerHTML = "Javascript"; 
-    document.getElementById("text-1").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus modi odio dignissimos. Voluptatum quos reprehenderit dolore aspernatur illum?";
-    document.getElementById("text-2").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quas laborum atque voluptates veniam magni. Doloremque corrupti animi recusandae debitis, laborum voluptas fugit vero.";
-    document.getElementById("text-3").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id assumenda illo, nisi voluptas laboriosam consectetur voluptatem!";
-    document.getElementById("image-1").src = "Images/logo.png";
-    document.getElementById('image-2').src = "Images/2.jpg"
+  
+    const home = document.getElementById("home");
+
+
+    const p1 = document.createElement("p");
+    const p2 = document.createElement("p");
+    const image1 = document.createElement("img");
+    const image2 = document.createElement("img"); 
+    image1.setAttribute("id", "image-1");
+    home.appendChild(image1);
+    image1.src = "Images/logo.png";
+    p1.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quas? Labore eligendi magni architecto reiciendis esse veniam, consectetur in eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quas? Labore eligendi magni architecto reiciendis esse veniam, consectetur in eos?";
+    home.appendChild(p1);
+    image2.setAttribute("id", "image-2");
+    image2.src = "Images/2.jpg";
+    home.appendChild(image2);
+
+    p2.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, modi porro ut unde amet quaerat autem ipsa vel beatae et nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, modi porro ut unde amet quaerat autem ipsa vel beatae et nesciunt."
+    home.appendChild(p2);
 }
 
 

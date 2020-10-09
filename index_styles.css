@@ -129,7 +129,7 @@ header .navbar ul li a::before{
 
 
 /* Image */
-.home #image-1{
+#image-1{
     height: 250px;
     width: auto;
 }
@@ -146,12 +146,15 @@ header .navbar ul li a::before{
     margin-bottom: 20px;
 }
 
-.image-home{
+#home{
     max-width: 900px;
     flex-wrap: wrap;
     text-align: center;
 }
 
+#home p{
+    text-align: justify;
+}
 
 
 /* COLOR PICKER*/
